@@ -129,7 +129,6 @@ void setup() {
 }
 
 void loop() {
-  /*
   int state_A = PIND & Encoder_A;
   int state_B = PIND & Encoder_B;
 
@@ -183,9 +182,8 @@ void loop() {
       Serial.println(rotary_cnt);
     }
   }
-  */
   //    reset(micros());
-  
+  /*
     c_millis = millis();
 
     if (c_millis - p_millis > 1000) {
@@ -294,7 +292,7 @@ void loop() {
       }
     }
     }
-  
+  */
   //  delay(5000);
   //  z_move(800, Z_DOWN, 400);
   //  delay(5000);
